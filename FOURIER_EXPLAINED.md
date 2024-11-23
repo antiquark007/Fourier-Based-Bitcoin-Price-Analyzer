@@ -5,6 +5,8 @@
 - <a href="#romana">Romanian</a>
 - <a href="#italian">Italian</a>
 
+
+----------------------------------- English -----------------------------------
 # 📊 Fourier Transform in JavaScript: Bitcoin Price Analysis
 
 The **Fourier Transform (FT)** is a powerful mathematical technique that allows decomposing a signal into its component frequencies. This approach is fundamental for analyzing **cyclical patterns** and **periodicity** in data, such as those related to cryptocurrency market movements.
@@ -73,8 +75,81 @@ The goal is to **discover hidden cyclical patterns** in Bitcoin's price behavior
 
 
 
+----------------------------------- Romanian -----------------------------------
 
-## Italian
+# 📊 Transformata Fourier în JavaScript: Analiza Prețurilor Bitcoin
+
+**Transformata Fourier (TF)** este o tehnică matematică puternică care permite descompunerea unui semnal în frecvențe componente. Această abordare este esențială pentru analiza **pattern-urilor ciclice** și a **perioadelor** din date, cum ar fi mișcările pieței criptomonedelor.
+
+---
+
+## 🔍 Ce este Transformata Fourier?
+
+TF convertește o secvență temporală (precum prețurile Bitcoin) într-o sumă de sinusoide cu frecvențe specifice. Permite:
+
+- **Descompunerea semnalelor complexe** în componente mai simple.
+- **Identificarea frecvențelor dominante**, adică perioade regulate în date.
+
+Această tehnică este utilă pentru a descoperi **cicluri ascunse** și **pattern-uri recurente** care nu sunt vizibile în domeniul temporal.
+
+---
+
+## ⚡️ Cum Funcționează FFT în JavaScript?
+
+În JavaScript, utilizăm **Fast Fourier Transform (FFT)**, o versiune optimizată a Transformatei Fourier, pentru a analiza serii temporale. Biblioteca **fft.js** este o soluție excelentă pentru acest scop.
+
+### Pași:
+
+1. **Colectarea Datelor**: Obține datele istorice ale prețurilor Bitcoin (de exemplu, la fiecare oră sau zi).
+2. **Aplicarea FFT**: Folosește `fft.js` pentru a aplica FFT asupra datelor numerice.
+3. **Analiza Frecvențelor**: Identifică frecvențele dominante și analizează pattern-urile ciclice din date.
+
+---
+
+## 📈 Aplicare Practică: Analiza Prețurilor Bitcoin
+
+### 🎯 Obiectiv
+
+Scopul este **descoperirea pattern-urilor ciclice ascunse** în comportamentul prețurilor Bitcoin pentru a îmbunătăți prognozele de tranzacționare.
+
+### 🧠 Cum Funcționează?
+
+1. **Colectarea Datelor**:
+   - Obține prețurile istorice ale Bitcoin, organizate ca o serie temporală.
+
+2. **Aplicarea FFT**:
+   - Folosește biblioteca `fft.js` pentru a aplica FFT datelor și pentru a obține frecvențele dominante.
+
+3. **Analiza Frecvențelor**:
+   - Caută frecvențe care apar în mod repetat, cum ar fi cele săptămânale, lunare etc. Aceste vârfuri pot dezvălui cicluri în prețuri.
+
+4. **Prognoze și Corelații**:
+   - **Evaluează** dacă frecvențele identificate se aliniază cu evenimente externe, cum ar fi fluctuațiile pieței, schimbările economice sau știrile.
+   - Folosește aceste **pattern-uri ciclice** pentru a prezice mișcările viitoare ale prețurilor.
+
+---
+
+## 💡 Ce Poți Obține din Această Analiză?
+
+- **Detectarea Pattern-urilor Ciclice**: Identifică perioade regulate în prețurile Bitcoin, cum ar fi fluctuațiile săptămânale sau lunare.
+- **Optimizarea Tranzacționării**: Prezice mișcările pieței pe baza ciclurilor și tendințelor istorice.
+- **Analiză Avansată**: Analizează impactul evenimentelor externe asupra ciclurilor, cum ar fi știrile economice sau politice.
+
+---
+
+## 🚀 Cum Să Începi cu `fft.js`
+
+1. **Instalează fft.js**:
+   ```bash
+   npm install fft.js
+
+
+
+
+
+----------------------------------- Italian -----------------------------------
+
+
 # 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin
 
 La **Trasformata di Fourier (FT)** è una potente tecnica matematica che permette di decomporre un segnale in frequenze componenti. Questo approccio è fondamentale per l'analisi di **pattern ciclici** e **periodicità** nei dati, come quelli relativi ai movimenti di mercato delle criptovalute.
