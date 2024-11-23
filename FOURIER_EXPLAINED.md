@@ -1,9 +1,13 @@
-## English / Engleză / Inglese
-- <a href="#english">English</a>
-## Română / Romeno / Italiano
-- <a href="#romana">Romanian</a>
-## Italiano / Italian / Italiana
-- <a href="#italiano">Italian</a>
+## 🌍 Languages / Limbi / Lingue
+
+### 🇬🇧 **English**
+- [**English**](#english) 
+
+### 🇷🇴 **Romanian**
+- [**Romanian**](#romana)
+
+### 🇮🇹 **Italian**
+- [**Italian**](#italiano)
 
 
 # 📊 Fourier Transform in JavaScript: Bitcoin Price Analysis
