@@ -1,4 +1,79 @@
-# 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin 💻
+## English / Engleză / Inglese
+- <a href="#english">English</a>
+## Română / Romeno / Italiano
+- <a href="#romana">Romanian</a>
+## Italiano / Italian / Italiana
+- <a href="#italiano">Italian</a>
+
+
+# 📊 Fourier Transform in JavaScript: Bitcoin Price Analysis
+
+The **Fourier Transform (FT)** is a powerful mathematical technique that allows decomposing a signal into its component frequencies. This approach is fundamental for analyzing **cyclical patterns** and **periodicity** in data, such as those related to cryptocurrency market movements.
+
+---
+
+## 🔍 What is the Fourier Transform?
+
+The FT converts a time series (such as Bitcoin prices) into a sum of sinusoids with specific frequencies. It allows you to:
+
+- **Decompose complex signals** into simpler components.
+- **Identify dominant frequencies**, i.e., regular periods in the data.
+  
+This technique is useful for discovering **hidden cycles** and **recurring patterns** that are not visible in the time domain.
+
+---
+
+## ⚡️ How Does FFT Work in JavaScript?
+
+In JavaScript, we use the **Fast Fourier Transform (FFT)**, an optimized version of the Fourier Transform, to analyze time series data. The **fft.js** library is a great solution for this purpose.
+
+### Steps:
+
+1. **Collect Data**: Obtain historical Bitcoin price data (e.g., hourly or daily).
+2. **Apply FFT**: Use `fft.js` to apply the FFT to the numerical data.
+3. **Analyze Frequencies**: Identify the dominant frequencies and analyze the cyclical patterns in the data.
+
+---
+
+## 📈 Practical Application: Bitcoin Price Analysis
+
+### 🎯 Goal
+
+The goal is to **discover hidden cyclical patterns** in Bitcoin's price behavior to improve trading predictions.
+
+### 🧠 How It Works
+
+1. **Data Collection**:
+   - Obtain historical Bitcoin prices organized as a time series.
+
+2. **Applying FFT**:
+   - Use the `fft.js` library to apply the FFT to the data and extract the dominant frequencies.
+
+3. **Frequency Analysis**:
+   - Look for frequencies that appear repeatedly, such as weekly, monthly, etc. These peaks may reveal cycles in the prices.
+
+4. **Predictions and Correlations**:
+   - **Evaluate** whether the identified frequencies align with external events, such as market fluctuations, economic changes, or news.
+   - Use these **cyclical patterns** to predict future price movements.
+
+---
+
+## 💡 What Can You Gain from This Analysis?
+
+- **Cyclic Pattern Detection**: Identify regular periods in Bitcoin prices, such as weekly or monthly fluctuations.
+- **Trading Optimization**: Predict market movements based on historical cycles and trends.
+- **Advanced Analysis**: Analyze the impact of external events on the cycles, such as economic or political news.
+
+---
+
+## 🚀 Getting Started with `fft.js`
+
+1. **Install fft.js**:
+   ```bash
+   npm install fft.js
+
+
+# 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin
 
 La **Trasformata di Fourier (FT)** è una potente tecnica matematica che permette di decomporre un segnale in frequenze componenti. Questo approccio è fondamentale per l'analisi di **pattern ciclici** e **periodicità** nei dati, come quelli relativi ai movimenti di mercato delle criptovalute.
 
