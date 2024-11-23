@@ -1,6 +1,6 @@
 ## 🌍 Languages / Limbi / Lingue
 
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+<div style="display: flex;">
   <div style="text-align: center;">
     <h3>🇬🇧 **English**</h3>
     <a href="#english">Go to English</a>
