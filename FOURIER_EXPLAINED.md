@@ -1,26 +1,7 @@
-    <td style="padding-left: 20px;">
-      <h2>📋 Index</h2>
-      <!-- Utilizza una lista non ordinata per i link -->
-      <ul style="list-style-type: none; padding: 0; margin: 0;">
-        <!-- Applica stili inline per migliorare l'aspetto dei link -->
-        <li style="margin-bottom: 10px;">
-          <a href="#chi-sono">About Me</a>
-        </li>
-        <li style="margin-bottom: 10px;">
-          <a href="#hard-skills">Hard Skills</a>
-        </li>
-        <li style="margin-bottom: 10px;">
-          <a href="#soft-skills">Soft Skills</a>
-        </li>
-        <li style="margin-bottom: 10px;">
-          <a href="#progetti">Projects</a>
-        </li>
-        <li style="margin-bottom: 10px;">
-          <a href="#contatti">Contact Me</a>
-        </li>
-      </ul>
-      <hr>
-    </td>
+## 🌍 Languages / Limbi / Lingue
+- <a href="#english">English</a>
+- <a href="#romana">Romanian</a>
+- <a href="#italian">Italian</a>
 
 # 📊 Fourier Transform in JavaScript: Bitcoin Price Analysis
 
