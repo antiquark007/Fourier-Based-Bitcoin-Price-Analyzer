@@ -1,73 +1,65 @@
-# What is the Fourier Transform? 📊🔍
+# 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin 💻
 
-The **Fourier Transform** is a mathematical operation that decomposes a function (often a signal or data) into its constituent frequencies. It is widely used in fields such as signal processing, data analysis, and physics to analyze the frequency components of various signals.
-
-In simple terms, the Fourier Transform helps us understand how a signal (like sound or a fluctuating value) can be represented as a sum of simpler sine and cosine waves.
-
-## Table of Contents 📚
-- <a href="#english">English</a>
-- <a href="#romana">Română</a>
-- <a href="#italiano">Italiano</a>
+La **Trasformata di Fourier (FT)** è una potente tecnica matematica che permette di decomporre un segnale in frequenze componenti. Questo approccio è fondamentale per l'analisi di **pattern ciclici** e **periodicità** nei dati, come quelli relativi ai movimenti di mercato delle criptovalute.
 
 ---
 
-## <a id="english">English 🇬🇧</a>
+## 🔍 Cos'è la Trasformata di Fourier?
 
-### What is the Fourier Transform?
-The **Fourier Transform** is a mathematical technique that transforms a time-domain signal into a frequency-domain signal. This allows you to analyze the frequency components (sine and cosine waves) that make up the signal.
+La FT converte una sequenza temporale (come i prezzi del Bitcoin) in una somma di sinusoidi con frequenze specifiche. Permette di:
 
-### How is it Applied to Numeric Data?
-When applied to numerical data, the Fourier Transform helps break down a signal or sequence of numbers into its frequency components. This is especially useful when trying to find periodic patterns or detect cycles within data sequences. For example:
-- Analyzing periodic behavior in sales data
-- Identifying patterns in time-series data
-- Finding trends in sensor data
-
-### Fourier Transform in Strings
-The Fourier Transform can also be applied to strings or sequences of characters, particularly when these sequences represent signals like sound waves. In computational linguistics, it's used for pattern recognition, analysis of linguistic structures, and even in encoding and compressing data.
-
-### How does it work?
-Mathematically, the Fourier Transform converts a signal from the time domain (a function of time) to the frequency domain (a function of frequency). By performing this transformation, complex signals can be analyzed in terms of their frequency content. In practical terms, it allows us to understand how much of each frequency exists in a signal.
+- **Scomporre segnali complessi** in componenti più semplici.
+- **Identificare frequenze dominanti**, cioè periodi regolari nei dati.
+  
+Questa tecnica è utile per scoprire **cicli nascosti** e **pattern ricorrenti** che non sono visibili nel dominio del tempo.
 
 ---
 
-## <a id="romana">Română 🇷🇴</a>
+## ⚡️ Come Funziona la FFT in JavaScript?
 
-### Ce este Transformata Fourier?
-**Transformata Fourier** este o tehnică matematică care transformă un semnal din domeniul timpului într-un semnal din domeniul frecvențelor. Acest lucru ne permite să analizăm componentele de frecvență (unde sinusoidale și cosinusoidale) care formează semnalul.
+In JavaScript, utilizziamo la **Fast Fourier Transform (FFT)**, una versione ottimizzata della Trasformata di Fourier, per analizzare serie temporali. La libreria **fft.js** è un'ottima soluzione per questo scopo.
 
-### Cum se aplică pe date numerice?
-Atunci când este aplicată pe date numerice, Transformata Fourier ajută la descompunerea unui semnal sau secvență de numere în componentele sale de frecvență. Acest lucru este util mai ales atunci când se încearcă identificarea unor modele periodice sau cicluri în secvențele de date. De exemplu:
-- Analiza comportamentului periodic în datele de vânzări
-- Identificarea modelelor în datele de serie temporală
-- Detectarea tendințelor în datele de la senzori
+### Passaggi:
 
-### Transformata Fourier în șiruri de caractere
-Transformata Fourier poate fi aplicată și pe șiruri sau secvențe de caractere, în special atunci când aceste secvențe reprezintă semnale, cum ar fi undele sonore. În lingvistica computațională, aceasta este utilizată pentru recunoașterea modelelor, analiza structurilor lingvistice și chiar pentru comprimarea și codificarea datelor.
-
-### Cum funcționează?
-Din punct de vedere matematic, Transformata Fourier convertește un semnal din domeniul timpului (o funcție a timpului) în domeniul frecvenței (o funcție a frecvenței). Prin efectuarea acestei transformări, semnalele complexe pot fi analizate în termeni de conținutul lor de frecvență. În termeni practici, ne permite să înțelegem cât de mult din fiecare frecvență există într-un semnal.
+1. **Raccolta Dati**: Ottieni i dati storici dei prezzi del Bitcoin (ad esempio, ogni ora o giorno).
+2. **Applicazione FFT**: Usa `fft.js` per applicare la FFT sui dati numerici.
+3. **Analisi delle Frequenze**: Individua le frequenze dominanti e analizza i pattern ciclici nei dati.
 
 ---
 
-## <a id="italiano">Italiano 🇮🇹</a>
+## 📈 Applicazione Pratica: Analisi dei Prezzi di Bitcoin
 
-### Cos'è la Trasformata di Fourier?
-La **Trasformata di Fourier** è una tecnica matematica che trasforma un segnale dal dominio del tempo al dominio delle frequenze. Questo ci permette di analizzare i componenti di frequenza (onde seno e coseno) che compongono il segnale.
+### 🎯 Obiettivo
 
-### Come si applica ai dati numerici?
-Quando applicata ai dati numerici, la Trasformata di Fourier aiuta a suddividere un segnale o una sequenza di numeri nelle sue componenti di frequenza. Questo è particolarmente utile quando si cerca di trovare schemi periodici o cicli all'interno di sequenze di dati. Ad esempio:
-- Analisi del comportamento periodico nei dati di vendita
-- Identificazione di modelli nei dati temporali
-- Individuazione di tendenze nei dati dei sensori
+L'obiettivo è **scoprire pattern ciclici nascosti** nel comportamento dei prezzi di Bitcoin per migliorare le previsioni di trading.
 
-### La Trasformata di Fourier nelle stringhe
-La Trasformata di Fourier può essere applicata anche su stringhe o sequenze di caratteri, in particolare quando queste sequenze rappresentano segnali come onde sonore. In linguistica computazionale, viene utilizzata per il riconoscimento di modelli, l'analisi delle strutture linguistiche e persino per la compressione e codifica dei dati.
+### 🧠 Come Funziona?
 
-### Come funziona?
-Matematicamente, la Trasformata di Fourier converte un segnale dal dominio del tempo (una funzione del tempo) al dominio delle frequenze (una funzione della frequenza). Eseguendo questa trasformazione, segnali complessi possono essere analizzati in base al loro contenuto di frequenza. In termini pratici, ci permette di capire quanta di ogni frequenza esiste in un segnale.
+1. **Acquisizione Dati**:
+   - Ottieni i prezzi storici di Bitcoin, organizzati come serie temporale.
+
+2. **Applicazione della FFT**:
+   - Usa la libreria `fft.js` per applicare la FFT ai dati e ottenere le frequenze dominanti.
+
+3. **Analisi delle Frequenze**:
+   - Cerca frequenze che appaiono ripetutamente, ad esempio settimanali, mensili, ecc. Questi picchi possono rivelare cicli nei prezzi.
+
+4. **Previsioni e Correlazioni**:
+   - **Valuta** se le frequenze individuate si allineano con eventi esterni, come fluttuazioni del mercato, cambiamenti economici o notizie.
+   - Usa questi **pattern ciclici** per prevedere movimenti futuri dei prezzi.
 
 ---
 
-## Summary 📝
-The **Fourier Transform** is a powerful tool that allows us to analyze complex signals and break them down into simpler frequency components. Whether it's used in sound processing, data analysis, or image recognition, the Fourier Transform plays a critical role in many scientific and engineering fields.
+## 💡 Cosa Puoi Ottenere da Questa Analisi?
 
+- **Rilevazione di Pattern Ciclici**: Identifica periodi regolari nei prezzi del Bitcoin, come fluttuazioni settimanali o mensili.
+- **Ottimizzazione del Trading**: Prevedi movimenti del mercato basandoti su cicli e tendenze storiche.
+- **Analisi Avanzata**: Analizza l'impatto di eventi esterni sui cicli, come notizie economiche o politiche.
+
+---
+
+## 🚀 Come Iniziare con `fft.js`
+
+1. **Installa fft.js**:
+   ```bash
+   npm install fft.js
