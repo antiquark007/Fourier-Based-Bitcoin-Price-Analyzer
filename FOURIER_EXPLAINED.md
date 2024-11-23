@@ -1,4 +1,6 @@
 ## 🌍 Languages / Limbi / Lingue
+--- INDEX ---
+
 - <a href="#english">English</a>
 - <a href="#romana">Romanian</a>
 - <a href="#italian">Italian</a>
