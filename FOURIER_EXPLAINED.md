@@ -1,13 +1,21 @@
 ## 🌍 Languages / Limbi / Lingue
 
-### 🇬🇧 **English**
-- [**English**](#english) 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+  <div style="text-align: center;">
+    <h3>🇬🇧 **English**</h3>
+    <a href="#english">Go to English</a>
+  </div>
 
-### 🇷🇴 **Romanian**
-- [**Romanian**](#romana)
+  <div style="text-align: center;">
+    <h3>🇷🇴 **Romanian**</h3>
+    <a href="#romana">Go to Romanian</a>
+  </div>
 
-### 🇮🇹 **Italian**
-- [**Italian**](#italiano)
+  <div style="text-align: center;">
+    <h3>🇮🇹 **Italian**</h3>
+    <a href="#italiano">Go to Italian</a>
+  </div>
+</div>
 
 
 # 📊 Fourier Transform in JavaScript: Bitcoin Price Analysis
