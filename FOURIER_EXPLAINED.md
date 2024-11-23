@@ -5,7 +5,7 @@
 - <a href="#romana">Romanian</a>
 - <a href="#italian">Italian</a>
 
-
+----------------------------------------------------------------------------------------------------
 # English
 
 
@@ -76,8 +76,8 @@ The goal is to **discover hidden cyclical patterns** in Bitcoin's price behavior
    npm install fft.js
 
 
-
-## Romanian
+----------------------------------------------------------------------------------------------------
+# Romanian
 
 # 📊 Transformata Fourier în JavaScript: Analiza Prețurilor Bitcoin
 
@@ -148,8 +148,8 @@ Scopul este **descoperirea pattern-urilor ciclice ascunse** în comportamentul p
 
 
 
-
------------------------------------ # Italian -----------------------------------
+----------------------------------------------------------------------------------------------------
+# Italian
 
 
 # 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin
