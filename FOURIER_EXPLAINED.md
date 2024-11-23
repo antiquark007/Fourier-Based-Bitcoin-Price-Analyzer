@@ -75,7 +75,7 @@ The goal is to **discover hidden cyclical patterns** in Bitcoin's price behavior
 
 
 
------------------------------------ # Romanian -----------------------------------
+----------------------------------- ## Romanian -----------------------------------
 
 # 📊 Transformata Fourier în JavaScript: Analiza Prețurilor Bitcoin
 
