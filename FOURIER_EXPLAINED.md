@@ -2,7 +2,7 @@
 --- INDEX ---
 
 - <a href="#english">English</a>
-- <a href="#romana">Romanian</a>
+- <a href="#romanian">Romanian</a>
 - <a href="#italian">Italian</a>
 
 ----------------------------------------------------------------------------------------------------
