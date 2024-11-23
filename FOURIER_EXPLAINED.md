@@ -6,7 +6,7 @@
 - <a href="#italian">Italian</a>
 
 
------------------------------------ English -----------------------------------
+----------------------------------- # English -----------------------------------
 # 📊 Fourier Transform in JavaScript: Bitcoin Price Analysis
 
 The **Fourier Transform (FT)** is a powerful mathematical technique that allows decomposing a signal into its component frequencies. This approach is fundamental for analyzing **cyclical patterns** and **periodicity** in data, such as those related to cryptocurrency market movements.
@@ -75,7 +75,7 @@ The goal is to **discover hidden cyclical patterns** in Bitcoin's price behavior
 
 
 
------------------------------------ Romanian -----------------------------------
+----------------------------------- # Romanian -----------------------------------
 
 # 📊 Transformata Fourier în JavaScript: Analiza Prețurilor Bitcoin
 
@@ -147,7 +147,7 @@ Scopul este **descoperirea pattern-urilor ciclice ascunse** în comportamentul p
 
 
 
------------------------------------ Italian -----------------------------------
+----------------------------------- # Italian -----------------------------------
 
 
 # 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin
