@@ -72,6 +72,9 @@ The goal is to **discover hidden cyclical patterns** in Bitcoin's price behavior
    npm install fft.js
 
 
+
+
+## Italian
 # 📊 Trasformata di Fourier in JavaScript: Analisi dei Prezzi di Bitcoin
 
 La **Trasformata di Fourier (FT)** è una potente tecnica matematica che permette di decomporre un segnale in frequenze componenti. Questo approccio è fondamentale per l'analisi di **pattern ciclici** e **periodicità** nei dati, come quelli relativi ai movimenti di mercato delle criptovalute.
