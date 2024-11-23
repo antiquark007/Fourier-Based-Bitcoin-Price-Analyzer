@@ -5,13 +5,13 @@ The **Fourier Transform** is a mathematical operation that decomposes a function
 In simple terms, the Fourier Transform helps us understand how a signal (like sound or a fluctuating value) can be represented as a sum of simpler sine and cosine waves.
 
 ## Table of Contents 📚
-- [English](#english)
-- [Română](#romana)
-- [Italiano](#italiano)
+- <a href="#english">English</a>
+- <a href="#romana">Română</a>
+- <a href="#italiano">Italiano</a>
 
 ---
 
-## English 🇬🇧
+## <a id="english">English 🇬🇧</a>
 
 ### What is the Fourier Transform?
 The **Fourier Transform** is a mathematical technique that transforms a time-domain signal into a frequency-domain signal. This allows you to analyze the frequency components (sine and cosine waves) that make up the signal.
@@ -30,7 +30,7 @@ Mathematically, the Fourier Transform converts a signal from the time domain (a 
 
 ---
 
-## Română 🇷🇴
+## <a id="romana">Română 🇷🇴</a>
 
 ### Ce este Transformata Fourier?
 **Transformata Fourier** este o tehnică matematică care transformă un semnal din domeniul timpului într-un semnal din domeniul frecvențelor. Acest lucru ne permite să analizăm componentele de frecvență (unde sinusoidale și cosinusoidale) care formează semnalul.
@@ -49,7 +49,7 @@ Din punct de vedere matematic, Transformata Fourier convertește un semnal din d
 
 ---
 
-## Italiano 🇮🇹
+## <a id="italiano">Italiano 🇮🇹</a>
 
 ### Cos'è la Trasformata di Fourier?
 La **Trasformata di Fourier** è una tecnica matematica che trasforma un segnale dal dominio del tempo al dominio delle frequenze. Questo ci permette di analizzare i componenti di frequenza (onde seno e coseno) che compongono il segnale.
@@ -70,3 +70,4 @@ Matematicamente, la Trasformata di Fourier converte un segnale dal dominio del t
 
 ## Summary 📝
 The **Fourier Transform** is a powerful tool that allows us to analyze complex signals and break them down into simpler frequency components. Whether it's used in sound processing, data analysis, or image recognition, the Fourier Transform plays a critical role in many scientific and engineering fields.
+
